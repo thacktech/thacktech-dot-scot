@@ -1,6 +1,6 @@
 locals {
   domain_name = "thacktech.scot"
-  public_ip   = local.public_ip
+  public_ip   = "45.95.16.160"
 }
 
 module "dns_records" {
